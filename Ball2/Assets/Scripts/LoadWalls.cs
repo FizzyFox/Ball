@@ -23,14 +23,10 @@ public class LoadWalls : MonoBehaviour {
 			yield return www;
 
 			AssetBundle bundle = www.assetBundle;
-
 			Instantiate (bundle.LoadAsset (AssetName));
-				//Debug.Log("null");
-
 			//hazard = bundle.LoadAsset (AssetName) as GameObject;
 			//yield return hazard;
-			// Unload the AssetBundles compressed contents to conserve memory
-			//bundle.Unload(false);
+		    bundle.Unload(false);
 		}
 	}
 

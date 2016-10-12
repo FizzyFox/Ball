@@ -1199,7 +1199,7 @@ MonoBehaviour:
   spawnWait: 0.4
   startWait: 1
   waveWait: 0.4
-  BundleURL: https://github.com/FizzyFox/myassets/blob/master/coins.unity3d
+  BundleURL: https://github.com/FizzyFox/Ball/blob/master/Ball2/Assets/AssetBundles/Android/asset/coins.unity3d
   AssetName: coins
 --- !u!114 &1166504999
 MonoBehaviour:
@@ -1218,7 +1218,7 @@ MonoBehaviour:
   spawnWait: 0.8
   startWait: 2
   waveWait: 0.8
-  BundleURL: https://github.com/FizzyFox/myassets/blob/master/cubebe.unity3d
+  BundleURL: https://github.com/FizzyFox/Ball/blob/master/Ball2/Assets/AssetBundles/Android/asset/cubebe.unity3d
   AssetName: cubebe
 --- !u!1 &1212123251
 GameObject:
@@ -1418,7 +1418,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d967dd62c42b4de449165c38ea66b901, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BundleURL: https://github.com/FizzyFox/myassets/blob/master/light.unity3d
+  BundleURL: https://github.com/FizzyFox/Ball/blob/master/Ball2/Assets/AssetBundles/Android/asset/light.unity3d
   AssetName: Lighting
 --- !u!114 &1271218207
 MonoBehaviour:
@@ -1432,7 +1432,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51ef84c35de1f7a4ab3d44141424bc5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BundleURL: https://github.com/FizzyFox/myassets/blob/master/2.unity3d
+  BundleURL: https://github.com/FizzyFox/Ball/blob/master/Ball2/Assets/AssetBundles/Android/asset/2.unity3d
   AssetName: Boundary
 --- !u!114 &1271218208
 MonoBehaviour:
@@ -1446,7 +1446,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b3968841ea04ff4898f71ca0a461708, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BundleURL: https:///github.com/FizzyFox/myassets/blob/master/stars.unity3d
+  BundleURL: https://github.com/FizzyFox/Ball/blob/master/Ball2/Assets/AssetBundles/Android/asset/stars.unity3d
   AssetName: StarField
 --- !u!114 &1271218209
 MonoBehaviour:
@@ -1460,7 +1460,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 955c3573a28e80848817d4c2e25a23ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BundleURL: https:///github.com/FizzyFox/myassets/blob/master/1.unity3d
+  BundleURL: https://github.com/FizzyFox/Ball/blob/master/Ball2/Assets/AssetBundles/Android/asset/1.unity3d
   AssetName: Walls 1
 --- !u!1 &1304029899
 GameObject:
@@ -1700,19 +1700,19 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1672786614
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1672786613}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fd284b5149b39614ca318df27b4f1ddd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BundleURL: file://D:/Ball2/Assets/AssetBundles/Android/asset/camera.unity3d
+  BundleURL: https://github.com/FizzyFox/Ball/blob/master/Ball2/Assets/AssetBundles/Android/asset/camera.unity3d
   AssetName: Main Camera
 --- !u!4 &1672786615
 Transform:
