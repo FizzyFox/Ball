@@ -1,0 +1,228 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &122172
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 473872}
+  - 114: {fileID: 11481674}
+  - 114: {fileID: 11471380}
+  - 114: {fileID: 11426626}
+  - 114: {fileID: 11430026}
+  m_Layer: 0
+  m_Name: Load
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &152586
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 459130}
+  - 114: {fileID: 11425956}
+  - 114: {fileID: 11482022}
+  m_Layer: 0
+  m_Name: Game Controller
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &189308
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 422888}
+  - 20: {fileID: 2005932}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &422888
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 189308}
+  m_LocalRotation: {x: 0.3150261, y: -0.015700366, z: 0.0016851112, w: 0.9489517}
+  m_LocalPosition: {x: 0.2, y: -4.6, z: -8.49}
+  m_LocalScale: {x: 2.9544969, y: 1.0950676, z: 0.79147875}
+  m_LocalEulerAnglesHint: {x: 36.7226, y: -2.0546, z: -0.47849998}
+  m_Children:
+  - {fileID: 473872}
+  - {fileID: 459130}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &459130
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 152586}
+  m_LocalRotation: {x: -0.3150261, y: 0.015700366, z: -0.0016851112, w: 0.9489517}
+  m_LocalPosition: {x: 0.022603676, y: 4.125032, z: 9.128484}
+  m_LocalScale: {x: 0.33932936, y: 1.0383942, z: 1.1373869}
+  m_LocalEulerAnglesHint: {x: -36.7151, y: 2.2062, z: -0.9357}
+  m_Children: []
+  m_Father: {fileID: 422888}
+  m_RootOrder: 1
+--- !u!4 &473872
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 122172}
+  m_LocalRotation: {x: -0.3150261, y: 0.015700366, z: -0.0016851112, w: 0.9489517}
+  m_LocalPosition: {x: 0.010595703, y: 8.004254, z: 5.124469}
+  m_LocalScale: {x: 0.33932936, y: 1.0383942, z: 1.1373869}
+  m_LocalEulerAnglesHint: {x: -36.7151, y: 2.2062, z: -0.9357}
+  m_Children: []
+  m_Father: {fileID: 422888}
+  m_RootOrder: 0
+--- !u!20 &2005932
+Camera:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 189308}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.60294116, g: 0.4292904, b: 0.3724048, a: 0.853}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 133.9544
+  orthographic: 0
+  orthographic size: 2
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+  m_StereoMirrorMode: 0
+--- !u!114 &11425956
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 152586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c9ef86c5a6ef694f9db76a54f7276a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnValues: {x: 2.5, y: -5, z: 25}
+  hazardCount: 10
+  spawnWait: 0.8
+  startWait: 2
+  waveWait: 0.8
+  BundleURL: https://github.com/FizzyFox/myassets/blob/master/cubebe.unity3d
+  AssetName: cubebe
+--- !u!114 &11426626
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 122172}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51ef84c35de1f7a4ab3d44141424bc5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BundleURL: 
+  AssetName: Boundary
+--- !u!114 &11430026
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 122172}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d967dd62c42b4de449165c38ea66b901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BundleURL: 
+  AssetName: Lighting
+--- !u!114 &11471380
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 122172}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b3968841ea04ff4898f71ca0a461708, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BundleURL: 
+  AssetName: StarField
+--- !u!114 &11481674
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 122172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 955c3573a28e80848817d4c2e25a23ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BundleURL: https://github.com/FizzyFox/myassets/blob/master/1.unity3d
+  AssetName: Walls 1
+--- !u!114 &11482022
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 152586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c9ef86c5a6ef694f9db76a54f7276a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnValues: {x: 2.5, y: -5.7, z: 25}
+  hazardCount: 20
+  spawnWait: 0.4
+  startWait: 1
+  waveWait: 0.4
+  BundleURL: https://github.com/FizzyFox/myassets/blob/master/coins.unity3d
+  AssetName: coins
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 189308}
+  m_IsPrefabParent: 1

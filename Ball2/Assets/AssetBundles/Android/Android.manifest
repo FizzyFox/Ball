@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 1709541536
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: asset/cubebe.unity3d
+      Dependencies: {}
+    Info_1:
+      Name: asset/coins.unity3d
+      Dependencies: {}
+    Info_2:
+      Name: asset/stars.unity3d
+      Dependencies: {}
+    Info_3:
+      Name: asset/2.unity3d
+      Dependencies: {}
+    Info_4:
+      Name: asset/light.unity3d
+      Dependencies: {}
+    Info_5:
+      Name: asset/camera.unity3d
+      Dependencies: {}
+    Info_6:
+      Name: asset/1.unity3d
+      Dependencies: {}

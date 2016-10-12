@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 1256403142
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2fb5470e5f797bcfe5bdf4a06735971c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0cbfdfacd0d93877862557c551a75a79
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5925e5f6a29480a44bff9da548496d88, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/VFX/Starfield/StarField.prefab
+Dependencies: []

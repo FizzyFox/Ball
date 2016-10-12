@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 2183764467
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 19a0483c2c008d7d1d799c0ed1239487
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 931609fa662da91459a22721a59706bb
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 45
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/Lighting.prefab
+Dependencies: []

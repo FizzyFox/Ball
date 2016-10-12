@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 2669883369
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 53a2297ecf618f1726efd3edd1d42193
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6013b0d34d20ae114a5613539ab7a580
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5925e5f6a29480a44bff9da548496d88, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/Boundary.prefab
+Dependencies: []
