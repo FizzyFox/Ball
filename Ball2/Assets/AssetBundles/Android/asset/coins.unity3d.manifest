@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2823182557
+CRC: 1209678722
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: c4341975935a7bebcda73dc51f6634f0
+    Hash: 5f97749c51291466cbea41425df0fa5c
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 968dc796d8f8c630a3a1a21adcd502a0
+    Hash: 2dbc5cc099ae911a7d768c351b04ede6
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -21,8 +21,6 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 43
   Script: {instanceID: 0}
-- Class: 48
-  Script: {instanceID: 0}
 - Class: 54
   Script: {instanceID: 0}
 - Class: 114
@@ -35,4 +33,5 @@ ClassTypes:
   Script: {instanceID: 0}
 Assets:
 - Assets/Prefabs/Coins.prefab
-Dependencies: []
+Dependencies:
+- Assets/AssetBundles/Android/asset/ground.unity3d

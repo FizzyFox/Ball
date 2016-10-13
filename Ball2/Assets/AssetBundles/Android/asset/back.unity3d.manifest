@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 339552091
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 53617eed25502fc1f10168a866e9d5f3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 67e99222a1589ff9377ee6366f65dd7a
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/Background.prefab
+- Assets/Prefabs/Back.prefab
+Dependencies:
+- Assets/AssetBundles/Android/asset/ground.unity3d

@@ -54,12 +54,12 @@ public class PlayerController : MonoBehaviour {
 	}
 		
 	void FixedUpdate () {
-		float moveHorizontal = Input.GetAxis ("Horizontal");
+		/*float moveHorizontal = Input.GetAxis ("Horizontal");
 		float moveVertical = Input.GetAxis ("Vertical");
-		Vector3 movement = new Vector3 (moveHorizontal, 0.0f, moveVertical);
-		/*Vector3 accelerate = Input.acceleration;
+		Vector3 movement = new Vector3 (moveHorizontal, 0.0f, moveVertical);*/
+		Vector3 accelerate = Input.acceleration;
 		Vector3 acceleration = FixAcceleration (accelerate);
-		Vector3 movement = new Vector3 (acceleration.x, 0.0f, acceleration.y);*/
+		Vector3 movement = new Vector3 (acceleration.x, 0.0f, acceleration.y);
 
 		rb.velocity= movement*10;
 		rb.position = new Vector3
