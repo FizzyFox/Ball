@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 3811686609
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5912aee00c114cec200198e885accc15
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3b408876498c5d6d6021effd5bf76c84
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/VFX/Starfield/StarField.prefab
+Dependencies:
+- Assets/AssetBundles/Android/asset/star1.unity3d
