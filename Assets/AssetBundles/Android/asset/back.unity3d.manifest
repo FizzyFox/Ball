@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1633561788
+CRC: 1471273665
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 617c80643edfd8a3c10774342742bd5f
+    Hash: a69e105a4e2b460114671e9741cc4d35
   TypeTreeHash:
     serializedVersion: 2
     Hash: 6013b0d34d20ae114a5613539ab7a580
@@ -20,5 +20,5 @@ ClassTypes:
 - Class: 115
   Script: {instanceID: 0}
 Assets:
-- Assets/Prefabs/Boundary.prefab
+- Assets/Prefabs/VFX/Starfield/Boundary.prefab
 Dependencies: []
