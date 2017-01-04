@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 1041211890
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: asset/cubebe.unity3d
+      Dependencies: {}
+    Info_1:
+      Name: asset/light.unity3d
+      Dependencies: {}
+    Info_2:
+      Name: asset/ground.unity3d
+      Dependencies: {}
+    Info_3:
+      Name: asset/coins.unity3d
+      Dependencies: {}
+    Info_4:
+      Name: asset/stars.unity3d
+      Dependencies: {}
+    Info_5:
+      Name: asset/1.unity3d
+      Dependencies:
+        Dependency_0: asset/ground.unity3d
+        Dependency_1: asset/wall.unity3d
+    Info_6:
+      Name: asset/wall.unity3d
+      Dependencies: {}
